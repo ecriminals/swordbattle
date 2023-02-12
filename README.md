@@ -15,7 +15,7 @@ print(data)
 ```py
 from swordbattle import Client
 
-cli = Client(secret="your secret")
+cli = Client("us1", secret="your secret")
 my_usr = cli.change_user("desired user")
 print(my_usr)
 ```
