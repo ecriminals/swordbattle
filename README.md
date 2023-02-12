@@ -2,13 +2,13 @@
 ### Python-based package for [swordbattle](https://sword-io-game.herokuapp.com/), retrieving data and performing fundamental operations.
 
 # Usage
-## Obtain Account Secret
+## Obtain Account Stats
 ```py
 from swordbattle import Client
 
-cli = Client(username="your user", password="your pass")
-my_sec = cli.get_secret()
-print(my_sec)
+cli = Client("us1", "your secret")
+data = cli.get_data()
+print(data)
 ```
 
 ## Change username
